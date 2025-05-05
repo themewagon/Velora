@@ -125,7 +125,6 @@ const handleScroll = () => {
           </template>
         </VList>
       </PerfectScrollbar>
-
     </div>
   </VNavigationDrawer>
 </template>

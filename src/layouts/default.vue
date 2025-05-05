@@ -13,8 +13,6 @@ const isVerticalNavExpand = ref<boolean>(false)
     class="d-print-none"
   />
 
-  <!-- buy now button -->
-
   <!-- back to top -->
   <BackToTop />
 

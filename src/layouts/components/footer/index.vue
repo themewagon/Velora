@@ -8,20 +8,14 @@
           color="error"
         /> by <strong>iCreator Studio</strong> © 2025
       </span>
+      
+      &nbsp;
+      &nbsp;
+      <span>
+       Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+      </span>
 
       <VSpacer />
-
-      <div class="d-none d-md-block">
-        <VBtn
-          color="primary"
-          variant="text"
-          href="https://docs.icreatorstudio.com/velora-vuejs-vuetify-admin-template-docs/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Documentation
-        </VBtn>
-      </div>
     </div>
   </VFooter>
 </template>

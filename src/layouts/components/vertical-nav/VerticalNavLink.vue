@@ -36,14 +36,7 @@ const emit = defineEmits<Emit>()
       :active="isNavLinkActive(props.navItem)"
       :target="props.navItem.target ? props.navItem.target : ''"
     >
-      <template #append>
-        <VChip
-          color="primary"
-          size="small"
-        >
-          Pro
-        </VChip>
-      </template>
+      
     </VListItem>
   </template>
 </template>

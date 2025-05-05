@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import NavUserProfileMenu from '@/components/NavUserProfileMenu.vue'
-import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
+import NavUserProfileMenu from '@/components/NavUserProfileMenu.vue';
+import ThemeSwitcher from '@/components/ThemeSwitcher.vue';
 
 interface Emit {
   (e: 'update:isDrawerOpen', value: boolean): void
