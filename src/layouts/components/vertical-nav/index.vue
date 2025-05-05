@@ -126,29 +126,6 @@ const handleScroll = () => {
         </VList>
       </PerfectScrollbar>
 
-      <!-- upgrade to pro banner -->
-      <VCard
-        title="Upgrade to Pro 🎉"
-        color="primary"
-        variant="tonal"
-        rounded="0"
-      >
-        <VCardText class="mb-10">
-          <p class="text-caption text-center">
-            Unlock more features with Pro version
-          </p>
-          <VBtn
-            block
-            href="https://icreatorstudio.com/product/velora-vuejs-admin-template"
-            target="_blank"
-            rel="noopener noreferrer"
-            color="primary"
-            class="mt-4"
-          >
-            Upgrade Now
-          </VBtn>
-        </VCardText>
-      </VCard>
     </div>
   </VNavigationDrawer>
 </template>

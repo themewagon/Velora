@@ -11,7 +11,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Velora/',
+  base: '/',
   plugins: [
     VueDevTools(),
     vue({
