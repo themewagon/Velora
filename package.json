@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint . -c .eslintrc.cjs --fix --ext .ts,.js,.vue,.tsx,.jsx",
     "build:icons": "tsx src/plugins/iconify/build-icons.ts",
-    "postinstall": "npm run build:icons"
+    "postinstall": "npm run build:icons",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.15",
@@ -81,6 +83,7 @@
     "eslint-plugin-sonarjs": "^0.24.0",
     "eslint-plugin-unicorn": "^51.0.1",
     "eslint-plugin-vue": "^9.31.0",
+    "gh-pages": "^6.3.0",
     "postcss-html": "^1.7.0",
     "stylelint": "16.11.0",
     "stylelint-config-idiomatic-order": "10.0.0",
